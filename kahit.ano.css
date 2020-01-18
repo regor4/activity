@@ -1,0 +1,36 @@
+.oji {
+   border:4px solid blue;
+   height:50px;
+   width:150px;
+}
+#container {
+     border:5px solid green;
+     height:500px;
+     width:500px;
+     position:absolute;
+     left:400px;
+     top:50px;
+}
+#btn-table{
+   content: "fill table";
+   position: absolute;
+   left:200px;
+   top:50px;
+}
+#btn-dialog{
+   position: absolute;
+   left:200px;
+   top:200px;
+}
+#btn-table:before{
+    content: "ojie"
+}
+#btn-table:active{
+   background-color:green;
+}
+#btn-dialog:before{
+     content: "sign"
+}
+#btn-dialog:active{
+   background-color:green;
+}
